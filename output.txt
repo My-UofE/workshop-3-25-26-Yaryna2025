@@ -1,0 +1,3 @@
+a: 4, b: 8, x: 4, y: 9, p: 4, q: 9
+i++ means post-increment
+++i means pre-increment
