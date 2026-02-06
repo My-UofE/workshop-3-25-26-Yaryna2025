@@ -16,15 +16,15 @@ public class AverageSquares {
         System.out.print("Please enter the end value: ");
         int endNum = in.nextInt();
 
-        double sum = 0; 
+        double sum = 0;
         int i = startNum;
         int count = 0;
 
-        while (i <= endNum) {
+        do {
             sum += i * i;
             i++;
             count++;
-        }
+        } while (i <= endNum);
 
         double average = sum / count;
 
@@ -32,3 +32,4 @@ public class AverageSquares {
         System.out.println(average);
     }
 }
+
